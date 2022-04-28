@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+body {
+    background-color: bisque;
+}
+.wrapper {
+    background-color: bisque;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+}
+.header__body {
+    background-color: blueviolet;
+    padding: 30px 0px;
+    margin: 0 auto;
+}
+.header__create-btn {
+    margin: 0 auto;
+    display: block;
+    background-color: bisque;
+    width: 200px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    color: blueviolet;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition-duration: 1s;
+    
+}
+.header__create-btn:hover {
+    
+    background-color: yellow;
+}
+.main {
+}
+.main__body {
+}
+
+.itemBlock {
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.delBtn {
+    background-color: brown;
+    width: 100px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 10px 0px ;
+}
+.saveBtn {
+    background-color: green;
+    width: 100px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 10px 0px ;
+}
+.titleField {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+.descriptionField {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 0px ;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 90px;
+    min-height: 90px;
+    margin-bottom: 6px;
+}
+.id {
+    display: none;
+}
